@@ -1,0 +1,12 @@
+.page-header {
+  display: flex;
+  height: 80px;
+  border-bottom: 1px solid #ECECEC;
+}
+
+
+.contact-link > .header-svg:hover {
+  --color4: $accent-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+} 

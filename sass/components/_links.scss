@@ -1,0 +1,27 @@
+
+
+.link-item .contact-link,
+.link-item .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  color: $primary-text-color;
+}
+
+
+.link {
+  position: relative;
+}
+
+.curent.link::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 100%;
+  border-bottom: 4px solid $accent-color;
+  border-radius: 2px;
+  bottom: 0;
+}
