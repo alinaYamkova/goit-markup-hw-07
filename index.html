@@ -6,7 +6,6 @@
     <title>Web Studio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
           rel="stylesheet"/>
-    <!-- <link rel="stylesheet" href="./css/styles.css"/> -->
     <link rel="stylesheet" href="./css/main.min.css"/>
 </head>
 <body>   
@@ -18,7 +17,7 @@
             
             <ul class="site-nav list">  
                 <li class="link-item">
-                    <a href="./index.html" class="curent link" style="color: var(--accent-color)">Студия</a>
+                    <a href="./index.html" class="curent link" style="color: #2196f3">Студия</a>
                 </li>
                 <li class="link-item">
                     <a href="./portfolio.html" class="link">Портфолио</a>
@@ -63,7 +62,7 @@
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <button class="btn-close" data-modal-close>
-                        <span class="close">&#10006;</span>
+                        <span class="close-modal">&#10006;</span>
                     </button>                
                     <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
                     
@@ -108,11 +107,11 @@
                         </div>
         
                         <div class="form-field-sign">
-                            <label class="accept-text">
-                                <input class="check-input" type="checkbox" name="checkbox"/>
+                            <label class="form-accept-text">
+                                <input class="form-check-input" type="checkbox" name="checkbox"/>
                                 <span class="check-box" checked></span>
                                 Соглашаюсь с рассылкой и принимаю 
-                                <a href="" class="agreement-link">Условия договора</a>
+                                <a href="" class="form-agreement-link">Условия договора</a>
                             </label>
                         </div>
                            
@@ -402,7 +401,7 @@
             <div class="footer-box footer-contacts">
                 <a href="./index.html" class="logo logo-footer"><span class="web">Web</span> Studio</a>
                 <address class="address-item">г. Киев, пр-т Леси Украинки, 26</address>  
-                <ul class="list contacts">
+                <ul class="list contacts-list">
                     <li class="contacts-item">info@exemple.com</li>
                     <li class="contacts-item">+38 099 111 11 11</li>
                 </ul>     
@@ -455,7 +454,7 @@
                         placeholder="E-mail"
                         />
                         <button class="button secondary" type="submit">Подписаться
-                            <svg class="subscribe-svg" >
+                            <svg class="footer-subscribe-svg" >
                                 <use href="./images/sprite.svg#icon-iconsend"></use>
                             </svg>    
                         </button>

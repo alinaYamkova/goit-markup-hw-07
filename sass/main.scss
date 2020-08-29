@@ -1,4 +1,5 @@
 @import "./utils/variables";
+@import "./utils/placeholder";
 @import "./base/normalize";
 @import "./base/general";
 @import "./components/buttons";
@@ -9,6 +10,7 @@
 @import "./components/links";
 @import "./components/modal";
 @import "./components/navigation";
+@import "./components/backdrop";
 @import "./layout/hero";
 @import "./layout/footer";
 @import "./layout/header";
@@ -16,3 +18,7 @@
 @import "./layout/features";
 @import "./layout/our-team";
 @import "./layout/clients";
+@import "./layout/portfolio";
+@import "./layout/projects";
+
+;

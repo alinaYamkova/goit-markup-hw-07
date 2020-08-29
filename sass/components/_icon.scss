@@ -2,50 +2,23 @@
 .icon-svg {
   width: 20px;
   height: 20px;
-}
 
-.icon-client-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-
-  &:hover,
-  &:focus {
-    border: 1px solid $accent-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  &:hover > .client-svg,
-  &:focus > .client-svg {
-    --color4: $accent-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  .footer-svg {
+    --color4: $primary-white-color;
   }
 }
 
-.icon-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
 
-  &:hover,
-  &:focus {
-    color: $accent-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  &:hover > .icon-svg {
+.icon-link:hover > .icon-svg {
   --color4: $primary-white-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+}
+
+.icon-features {
+  width: 270px;
+  height: 120px;
+  padding: 25px 102px;
+  background: #F5F4FA;
+  border-radius: 4px;
 }

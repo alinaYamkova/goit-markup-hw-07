@@ -1,54 +1,61 @@
-.site-nav,
-.site-auth {
-    display: flex;
-    align-items: center;
-    margin-right: auto; 
+.site-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto; 
+
+    .link-item:not(:first-child) { 
+        margin-left: 50px;
+    }
+
+    .link {
+      padding-top: 32px;
+      padding-bottom: 32px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      text-decoration: none;
+      color: $primary-text-color;
+        
+        &:hover,
+        &:focus {
+          color: $accent-color;
+          transition-duration: 250ms;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
+        }
+    }
 }
 
-.link-item .contact-link,
-.link-item .link {
+.site-auth {
+  display: flex;
+  align-items: center;
+  margin-right: auto; 
+
+  .link-item:not(:first-child) { 
+    margin-left: 30px;
+  }
+
+  .contact-link {
+    display: flex;
+    align-items: center;
+    max-height: 80px;
+    
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
-    color: var(--primary-text-color);
-}
-
-.site-nav .link-item:not(:first-child) { 
-    margin-left: 50px;
-}
-
-.site-auth .contact-link {
-    display: flex;
-    align-items: center;
     color: $text-color;
-    max-height: 80px;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }   
 }
 
-.site-auth .link-item:not(:first-child) { 
-    margin-left: 30px;
-}
 
-.header-svg {
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-    fill: currentColor;
-}
 
-.contact-link > .header-svg:hover {
-    --color4: $accent-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
- } 
 
-.site-nav .link:hover,
-.site-nav .link:focus,
-.site-auth .contact-link:hover,
-.site-auth .contact-link:focus {
-    color: $accent-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}

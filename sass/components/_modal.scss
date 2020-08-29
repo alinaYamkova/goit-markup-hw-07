@@ -1,24 +1,3 @@
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.2);
-  transform: scale(1);
-  transition-duration: 300ms;
-  transition-timing-function: ease-in;
-
-}
-
-.backdrop.is-hidden {
-  pointer-events: none;
-  opacity: 0;
-  transform: scale(0.25);
-}
-
 .modal {
   position: absolute;
   top: 50%;
@@ -34,9 +13,17 @@
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   background: $primary-white-color;
+
+  &-title {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.15;
+    margin: 0;
+    padding-bottom: 12px;
+  }
 }
 
-span.close {
+span.close-modal {
   display: inline-flex;
   justify-content: center;
   align-items: center;

@@ -18,87 +18,25 @@
   }
 }
 
-.logo.logo-footer {    
-  color: $primary-white-color;
-  margin-top: -12px;
-}  
-
-address {
-  font-style: normal;
-  margin-top: 20px;
-}
-
-.list.contacts  {
+.contacts-list  {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 
-  &.contacts-item {
+  .contacts-item {
     margin-top: 9px;
-  } 
+  }
 }
+
 
 .footer-box.join {
   margin-top: 12px;
-}
-
-.links-box-footer {
-  display: flex;
-}
-
-.social-links-footer:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-links-footer > .icon-link {
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .icon-svg.footer-svg {
   --color4: $primary-white-color;
 }
 
-.icon-link:hover,
-.icon-link:focus {
-  background-color: $accent-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} 
-
-.footer-box.registery {
-  width: calc((100% - 30px) / 2);
-  margin-top: 12px
-}
-
-.e-mail-form {
-  display: flex;
-  width: auto;
-
-  & > input {
-    width: 100%;
-    margin-right: 12px;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    background: transparent;
-  }
-}
-
-.footer-box .button.secondary >.icon-send {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 10px;
-  width: 24px;
-  height: 24px;
-}
-
-.subscribe-svg {
+.footer-subscribe-svg {
   width: 24px;
   height: 24px;
   margin-left: 10px;
