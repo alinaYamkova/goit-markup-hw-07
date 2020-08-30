@@ -71,6 +71,7 @@
   margin-right: 10px;
 }
 
+
 .icon-link {
   display: flex;
   align-items: center;
@@ -78,7 +79,11 @@
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
+
+  & > .icon-svg {
+    fill: #afb1b8;
+  }
+
 
   &:hover {
     background-color: $accent-color;
@@ -91,14 +96,15 @@
   }
 }
 
+
 .icon-link.footer {
   background-color: rgba(255, 255, 255, 0.1);
 
-  &:hover {
-    background-color: $accent-color;
+  & > .icon-svg.footer-svg {
+    fill: currentColor;
   }
 
-  & > .icon-svg {
-    fill: $primary-white-color;
+  &:hover {
+    background-color: $accent-color;
   }
 }

@@ -435,12 +435,13 @@ address {
   margin-top: 9px;
 }
 
-.footer-box.join {
+.footer-box.registery {
+  width: calc((100% - 30px) / 2);
   margin-top: 12px;
 }
 
-.icon-svg.footer-svg {
-  --color4: $primary-white-color;
+.footer-box.join {
+  margin-top: 12px;
 }
 
 .footer-subscribe-svg {
@@ -1038,6 +1039,10 @@ span.close-modal {
   padding: 25px 102px;
   background: #F5F4FA;
   border-radius: 4px;
+}
+
+.icon-svg.footer-svg {
+  --color4: $primary-white-color;
 }
 
 .link {

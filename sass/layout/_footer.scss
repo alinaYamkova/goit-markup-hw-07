@@ -28,14 +28,15 @@
 }
 
 
+.footer-box.registery {
+  width: calc((100% - 30px) / 2);
+  margin-top: 12px
+}
+
 .footer-box.join {
   margin-top: 12px;
 }
 
-
-.icon-svg.footer-svg {
-  --color4: $primary-white-color;
-}
 
 .footer-subscribe-svg {
   width: 24px;
