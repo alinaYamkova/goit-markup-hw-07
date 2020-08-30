@@ -8,13 +8,6 @@
   }
 }
 
-
-.icon-link:hover > .icon-svg {
-  --color4: $primary-white-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .icon-features {
   width: 270px;
   height: 120px;

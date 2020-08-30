@@ -2,15 +2,6 @@
 @import "./utils/placeholder";
 @import "./base/normalize";
 @import "./base/general";
-@import "./components/buttons";
-@import "./components/logo";
-@import "./components/site-nav\,auth";
-@import "./components/form";
-@import "./components/icon";
-@import "./components/links";
-@import "./components/modal";
-@import "./components/navigation";
-@import "./components/backdrop";
 @import "./layout/hero";
 @import "./layout/footer";
 @import "./layout/header";
@@ -20,5 +11,13 @@
 @import "./layout/clients";
 @import "./layout/portfolio";
 @import "./layout/projects";
+@import "./components/buttons";
+@import "./components/logo";
+@import "./components/site-nav\,auth";
+@import "./components/form";
+@import "./components/icon";
+@import "./components/links";
+@import "./components/modal";
+@import "./components/navigation";
+@import "./components/backdrop";
 
-;

@@ -8,7 +8,7 @@
   background: #2F303A;
   color: $primary-white-color; 
 
-  &.text-footer {
+  .text-footer {
     margin-top: 0;
     margin-bottom: 20px;    
     text-transform: uppercase;
@@ -31,6 +31,7 @@
 .footer-box.join {
   margin-top: 12px;
 }
+
 
 .icon-svg.footer-svg {
   --color4: $primary-white-color;
