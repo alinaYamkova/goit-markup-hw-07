@@ -3,26 +3,26 @@
   align-items: center;
   margin-right: auto; 
 
-    .link-item:not(:first-child) { 
-        margin-left: 50px;
-    }
+  .link-item:not(:first-child) { 
+    margin-left: 50px;
+  }
 
-    .link {
-      padding-top: 32px;
-      padding-bottom: 32px;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.14;
-      text-decoration: none;
-      color: $primary-text-color;
-        
-        &:hover,
-        &:focus {
-          color: $accent-color;
-          transition-duration: 250ms;
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
-        }
+  .link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    color: $primary-text-color;
+      
+    &:hover,
+    &:focus {
+      color: $accent-color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
     }
+  } 
 }
 
 .site-auth {

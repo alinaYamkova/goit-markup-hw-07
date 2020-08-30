@@ -54,23 +54,25 @@
   }
 }
 
-.social-link-list:not(:last-child) {
-  margin-right: 10px;
-} 
-
-.links-box-footer {
-  display: flex;
-}
 
 .social-link-box {
   display: flex;  
   padding: 16px 32px 24px;    
 }
 
+.social-link-list:not(:last-child) {
+  margin-right: 10px;
+} 
+
+
+
+.links-box-footer {
+  display: flex;
+}
+
 .social-links-footer:not(:last-child) {
   margin-right: 10px;
 }
-
 
 .icon-link {
   display: flex;
@@ -83,7 +85,6 @@
   & > .icon-svg {
     fill: #afb1b8;
   }
-
 
   &:hover {
     background-color: $accent-color;
@@ -101,7 +102,7 @@
   background-color: rgba(255, 255, 255, 0.1);
 
   & > .icon-svg.footer-svg {
-    fill: currentColor;
+    fill: $primary-white-color;
   }
 
   &:hover {
