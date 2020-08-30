@@ -4,6 +4,16 @@
   border-bottom: 1px solid #ECECEC;
 }
 
+.curent.link::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 100%;
+  border-bottom: 4px solid $accent-color;
+  border-radius: 2px;
+  bottom: 0;
+}
+
 .header-svg {
   justify-content: center;
   align-items: center;
